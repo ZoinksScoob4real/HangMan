@@ -11,9 +11,9 @@
 #include <time.h>
 
 
-char GetRandomWord(const char* fileName);
+char GetRandomWord(const char* fileName); //egy random szot kuldd vissza
 
-char GetRandomWord2(const char* fileName);
+char GetRandomWord2(const char* fileName); //egy megadott szot kuldd vissza
 
 
 #endif

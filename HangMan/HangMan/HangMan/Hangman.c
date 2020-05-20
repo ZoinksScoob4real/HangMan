@@ -8,7 +8,7 @@
 char GetRandomWord(const char* fileName)
 {
 	int sorsz;
-	char word = "semmi";
+	char* word = "semmi";
 	FILE* fbe;
 	fbe = fopen(fileName, "rt");
 	sorsz = (rand() % (6081)) + 1;
